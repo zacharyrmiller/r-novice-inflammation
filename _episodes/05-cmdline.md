@@ -82,8 +82,9 @@ Rscript session-info.R
 
 
 ~~~
-R version 3.0.2 (2013-09-25)
+R version 3.3.1 (2016-06-21)
 Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 14.04.4 LTS
 
 locale:
  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
@@ -136,7 +137,6 @@ Rscript print-args.R
 --slave
 --no-restore
 --file=print-args.R
---args
 ~~~
 {: .output}
 
@@ -802,9 +802,7 @@ Rscript count-stdin.R < data/small-01.csv
 
 
 ~~~
-lines in standard input: Warning message:
-closing unused connection 3 (stdin) 
-2
+lines in standard input: 2
 ~~~
 {: .output}
 

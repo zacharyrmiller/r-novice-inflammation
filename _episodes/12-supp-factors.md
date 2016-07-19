@@ -116,7 +116,7 @@ min(food) ## doesn't work
 
 
 ~~~
-Error in Summary.factor(structure(c(1L, 3L, 2L, 3L, 1L, 2L, 3L), .Label = c("low", : min not meaningful for factors
+Error in Summary.factor(structure(c(1L, 3L, 2L, 3L, 1L, 2L, 3L), .Label = c("low", : 'min' not meaningful for factors
 ~~~
 {: .error}
 
