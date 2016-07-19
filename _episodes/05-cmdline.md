@@ -82,11 +82,16 @@ Rscript session-info.R
 
 
 ~~~
-R version 3.1.2 (2014-10-31)
-Platform: x86_64-apple-darwin13.4.0 (64-bit)
+R version 3.0.2 (2013-09-25)
+Platform: x86_64-pc-linux-gnu (64-bit)
 
 locale:
-[1] en_CA.UTF-8/en_CA.UTF-8/en_CA.UTF-8/C/en_CA.UTF-8/en_CA.UTF-8
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
 
 attached base packages:
 [1] stats     graphics  grDevices utils     datasets  base     
@@ -127,10 +132,11 @@ Rscript print-args.R
 
 
 ~~~
-/Library/Frameworks/R.framework/Resources/bin/exec/R
+/usr/lib/R/bin/exec/R
 --slave
 --no-restore
 --file=print-args.R
+--args
 ~~~
 {: .output}
 
@@ -156,7 +162,7 @@ R --slave --no-restore --file=print-args.R --args
 
 
 ~~~
-/Library/Frameworks/R.framework/Resources/bin/exec/R
+/usr/lib/R/bin/exec/R
 --slave
 --no-restore
 --file=print-args.R
@@ -176,7 +182,7 @@ Rscript print-args.R first second third
 
 
 ~~~
-/Library/Frameworks/R.framework/Resources/bin/exec/R
+/usr/lib/R/bin/exec/R
 --slave
 --no-restore
 --file=print-args.R
@@ -429,8 +435,8 @@ Rscript readings-02.R data/inflammation-01.csv
 > 
 > 
 > ~~~
-> print-args-trailing.R
 > print-args.R
+> print-args-trailing.R
 > ~~~
 > {: .output}
 >
@@ -796,7 +802,9 @@ Rscript count-stdin.R < data/small-01.csv
 
 
 ~~~
-lines in standard input: 2
+lines in standard input: Warning message:
+closing unused connection 3 (stdin) 
+2
 ~~~
 {: .output}
 

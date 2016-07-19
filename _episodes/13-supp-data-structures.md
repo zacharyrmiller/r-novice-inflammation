@@ -482,9 +482,9 @@ anyNA(x)
 
 
 ~~~
-[1] TRUE
+Error in eval(expr, envir, enclos): could not find function "anyNA"
 ~~~
-{: .output}
+{: .error}
 
 
 
@@ -496,9 +496,9 @@ anyNA(y)
 
 
 ~~~
-[1] FALSE
+Error in eval(expr, envir, enclos): could not find function "anyNA"
 ~~~
-{: .output}
+{: .error}
 
 ### Other Special Values
 
