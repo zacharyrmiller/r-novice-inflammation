@@ -82,9 +82,9 @@ Rscript session-info.R
 
 
 ~~~
-R version 3.3.3 (2017-03-06)
+R version 3.2.3 (2015-12-10)
 Platform: x86_64-pc-linux-gnu (64-bit)
-Running under: Antergos Linux
+Running under: Linux Mint 18
 
 locale:
  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
@@ -133,7 +133,7 @@ Rscript print-args.R
 
 
 ~~~
-/usr/lib64/R/bin/exec/R
+/usr/lib/R/bin/exec/R
 --slave
 --no-restore
 --file=print-args.R
@@ -162,7 +162,7 @@ R --slave --no-restore --file=print-args.R --args
 
 
 ~~~
-/usr/lib64/R/bin/exec/R
+/usr/lib/R/bin/exec/R
 --slave
 --no-restore
 --file=print-args.R
@@ -182,7 +182,7 @@ Rscript print-args.R first second third
 
 
 ~~~
-/usr/lib64/R/bin/exec/R
+/usr/lib/R/bin/exec/R
 --slave
 --no-restore
 --file=print-args.R
@@ -435,8 +435,8 @@ Rscript readings-02.R data/inflammation-01.csv
 > 
 > 
 > ~~~
-> print-args-trailing.R
 > print-args.R
+> print-args-trailing.R
 > ~~~
 > {: .output}
 >
