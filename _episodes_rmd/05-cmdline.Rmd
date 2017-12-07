@@ -107,7 +107,7 @@ The following are all command-line arguments that affect the behavior of R.
 From the R help file:
 
 *  `--slave`: Make R run as quietly as possible
-*  `--no-restore`:  Don't restore anything that was created during the R session
+*  `--no-restore`: Don't restore anything that was created during the R session
 *  `--file`: Run this file
 *  `--args`: Pass these arguments to the file being run
 
@@ -171,7 +171,7 @@ Rscript readings-02.R data/inflammation-01.csv
 >
 > 1. Write a command-line program that does addition and subtraction.
 >
->    **Hint:** Everything argument read from the command-line is interpreted as a character [string]({{ page.root }}/reference/#string).
+>    **Hint:** Every argument read from the command-line is interpreted as a character [string]({{ page.root }}/reference/#string).
 >    You can convert from a string to a number using the function `as.numeric`.
 >
 > ```{r, engine='bash'}
